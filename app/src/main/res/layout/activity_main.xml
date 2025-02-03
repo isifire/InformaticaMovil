@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonPlus2Visitante"
+        android:layout_width="94dp"
+        android:layout_height="47dp"
+        android:text="+2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.731"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textVisitante2"
+        app:layout_constraintVertical_bias="0.501" />
+
+    <Button
+        android:id="@+id/buttonPlus2Local"
+        android:layout_width="94dp"
+        android:layout_height="47dp"
+        android:text="+2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.192"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.63" />
+
+    <TextView
+        android:id="@+id/textVisitantePuntos"
+        android:layout_width="93dp"
+        android:layout_height="63dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/buttonPlus1Visitante"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.735"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textVisitante2"
+        app:layout_constraintVertical_bias="0.075" />
+
+    <Button
+        android:id="@+id/buttonPlus1Visitante"
+        android:layout_width="94dp"
+        android:layout_height="47dp"
+        android:text="+1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.731"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textVisitante2"
+        app:layout_constraintVertical_bias="0.326" />
+
+    <TextView
+        android:id="@+id/textPuntuacion"
+        android:layout_width="183dp"
+        android:layout_height="55dp"
+        android:text="Puntuación"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.072" />
+
+    <TextView
+        android:id="@+id/textLocal"
+        android:layout_width="92dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="52dp"
+        android:text="Local"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.197"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textPuntuacion" />
+
+    <TextView
+        android:id="@+id/textVisitante2"
+        android:layout_width="92dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="52dp"
+        android:text="Visitante"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.733"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textPuntuacion" />
+
+    <Button
+        android:id="@+id/buttonPlus1Local"
+        android:layout_width="94dp"
+        android:layout_height="47dp"
+        android:text="+1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.198"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textLocalPuntos"
+        android:layout_width="93dp"
+        android:layout_height="63dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/buttonPlus1Local"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.198"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textLocal"
+        app:layout_constraintVertical_bias="0.075" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
